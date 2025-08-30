@@ -126,4 +126,5 @@ typingForm.addEventListener("submit", (e) => {
     e.preventDefault();
 
     handleOutgoingChat();
+
 });
