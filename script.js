@@ -5,8 +5,9 @@ const toggleThemeButton = document.getElementById("toggle-therme-button")
 let userMessage = null;
 
 // API configuration
-const API_KEY = "AIzaSyDX2rD7EqQ6cqeNqUF9FMziBLsdK2egkWw";
-const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${API_KEY}`;
+const API_KEY = "AIzaSyBDJQwvXhmva-7SIhNNRWO8sDQk7bztL1Y";
+const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/\
+gemini-2.5-flash:generateContent?key=${API_KEY}`;
 
 const loadLoadLocalStorageData = () => {
     const isLightMode = (localStorage.getItem("themeColor") === "light_mode");
@@ -128,3 +129,4 @@ typingForm.addEventListener("submit", (e) => {
     handleOutgoingChat();
 
 });
+
