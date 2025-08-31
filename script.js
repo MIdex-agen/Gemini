@@ -130,3 +130,4 @@ typingForm.addEventListener("submit", (e) => {
 
 });
 
+
